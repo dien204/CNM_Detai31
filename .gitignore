@@ -1,0 +1,45 @@
+# venv
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VSCode
+.vscode/
+
+# Kaggle/raw data files
+data/raw/
+data/processed/*.csv
+*.csv
+!data/demo/demo_transactions.csv
+
+# Models: ignore large real model, keep small demo model if needed
+models/trust_xgb_model.pkl
+
+# Generated reports
+reports/*.json
+reports/*.txt
+reports/*.csv
+reports/figures/*.png
+
+# Kaggle API
+kaggle.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local app state
+data/app/*.db
+data/app/*.db-*
+
+# Local env files
+.env
+
+# Test cache
+.pytest_cache/

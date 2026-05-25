@@ -1,0 +1,33 @@
+services:
+  backend:
+    build: .
+    container_name: user-trust-score-backend
+    command: python -m uvicorn backend.main:app --host 0.0.0.0 --port 8000
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./data/app:/app/data/app
+      - ./data/demo:/app/data/demo:ro
+      - ./models:/app/models:ro
+      - ./reports:/app/reports
+    environment:
+      - TRUST_DB_PATH=/app/data/app/user_trust.db
+    restart: unless-stopped
+
+  frontend:
+    build: .
+    container_name: user-trust-score-frontend
+    command: python -m streamlit run app/streamlit_app.py --server.address=0.0.0.0 --server.port=8501
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./data/app:/app/data/app
+      - ./data/demo:/app/data/demo:ro
+      - ./models:/app/models:ro
+      - ./reports:/app/reports
+    environment:
+      - TRUST_DB_PATH=/app/data/app/user_trust.db
+      - BACKEND_URL=http://backend:8000
+    depends_on:
+      - backend
+    restart: unless-stopped

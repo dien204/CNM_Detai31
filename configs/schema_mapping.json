@@ -1,0 +1,232 @@
+{
+  "TransactionID": [
+    "TransactionID",
+    "transaction_id",
+    "txn_id",
+    "ma_giao_dich",
+    "mã giao dịch",
+    "Mã giao dịch",
+    "Mã GD",
+    "id_giao_dich"
+  ],
+  "TransactionDT": [
+    "TransactionDT",
+    "transaction_time",
+    "timestamp",
+    "time",
+    "Thời gian",
+    "thoi_gian",
+    "ngay_giao_dich"
+  ],
+  "TransactionAmt": [
+    "TransactionAmt",
+    "amount",
+    "txn_amount",
+    "transaction_amount",
+    "Số tiền",
+    "so_tien",
+    "tong_tien",
+    "gia_tri_giao_dich"
+  ],
+  "ProductCD": [
+    "ProductCD",
+    "product_code",
+    "product_type",
+    "Loại sản phẩm",
+    "loai_san_pham",
+    "dich_vu",
+    "service"
+  ],
+  "card1": [
+    "card1",
+    "card_1",
+    "card_bin",
+    "ma_the_1"
+  ],
+  "card2": [
+    "card2",
+    "card_2",
+    "ma_the_2"
+  ],
+  "card3": [
+    "card3",
+    "card_3",
+    "ma_the_3"
+  ],
+  "card4": [
+    "card4",
+    "card_4",
+    "card_brand",
+    "loai_the",
+    "hãng thẻ",
+    "hang_the"
+  ],
+  "card5": [
+    "card5",
+    "card_5",
+    "ma_the_5"
+  ],
+  "card6": [
+    "card6",
+    "card_6",
+    "card_type",
+    "kieu_the"
+  ],
+  "addr1": [
+    "addr1",
+    "address1",
+    "billing_addr",
+    "dia_chi_1",
+    "Địa chỉ 1"
+  ],
+  "addr2": [
+    "addr2",
+    "address2",
+    "country_code",
+    "dia_chi_2",
+    "Địa chỉ 2"
+  ],
+  "P_emaildomain": [
+    "P_emaildomain",
+    "payer_email_domain",
+    "email_domain",
+    "email",
+    "domain_email",
+    "Email domain"
+  ],
+  "R_emaildomain": [
+    "R_emaildomain",
+    "receiver_email_domain",
+    "recipient_email_domain",
+    "email_nhan",
+    "domain_email_nhan"
+  ],
+  "DeviceType": [
+    "DeviceType",
+    "device_type",
+    "device",
+    "Thiết bị",
+    "loai_thiet_bi",
+    "Loại thiết bị"
+  ],
+  "DeviceInfo": [
+    "DeviceInfo",
+    "device_info",
+    "device_name",
+    "Thông tin thiết bị",
+    "thong_tin_thiet_bi"
+  ],
+  "UserID": [
+    "UserID",
+    "user_id",
+    "customer_id",
+    "account_id",
+    "Mã người dùng",
+    "ma_nguoi_dung",
+    "khach_hang"
+  ],
+  "IPAddress": [
+    "ip",
+    "ip_address",
+    "IP",
+    "IP Address",
+    "Địa chỉ IP",
+    "dia_chi_ip"
+  ],
+  "IPCountry": [
+    "country",
+    "ip_country",
+    "quoc_gia",
+    "Quốc gia",
+    "region"
+  ],
+  "TransactionDate": [
+    "TransactionDate",
+    "transaction_date",
+    "date",
+    "datetime",
+    "created_at",
+    "Ngày giao dịch",
+    "ngay_giao_dich"
+  ],
+  "login_count_30d": [
+    "login_count",
+    "login_count_30d",
+    "Số lần đăng nhập",
+    "so_lan_dang_nhap"
+  ],
+  "failed_login_count_30d": [
+    "failed_login",
+    "failed_login_count",
+    "failed_login_count_30d",
+    "Số lần đăng nhập thất bại",
+    "so_lan_dang_nhap_that_bai"
+  ],
+  "night_login_count_30d": [
+    "night_login",
+    "night_login_count",
+    "night_login_count_30d",
+    "Đăng nhập ban đêm",
+    "dang_nhap_ban_dem"
+  ],
+  "unique_device_count_30d": [
+    "unique_device_count",
+    "unique_device_count_30d",
+    "unique_devices_30d",
+    "Số thiết bị",
+    "so_thiet_bi"
+  ],
+  "unique_ip_count_30d": [
+    "unique_ip_count",
+    "unique_ip_count_30d",
+    "unique_addresses_30d",
+    "Số IP",
+    "so_ip"
+  ],
+  "avg_transaction_amt_30d": [
+    "avg_transaction_amt",
+    "avg_transaction_amt_30d",
+    "avg_amount",
+    "Giá trị giao dịch trung bình"
+  ],
+  "max_transaction_amt_30d": [
+    "max_transaction_amt",
+    "max_transaction_amt_30d",
+    "max_amount",
+    "Giá trị giao dịch lớn nhất"
+  ],
+  "transaction_count_30d": [
+    "transaction_count",
+    "transaction_count_30d",
+    "Số giao dịch",
+    "so_giao_dich"
+  ],
+  "chargeback_count_90d": [
+    "chargeback",
+    "chargeback_count",
+    "chargeback_count_90d",
+    "Khiếu nại",
+    "khieu_nai"
+  ],
+  "feedback_risk_flag": [
+    "feedback_risk",
+    "feedback_risk_flag",
+    "risk_feedback",
+    "Cờ feedback rủi ro"
+  ],
+  "account_age_days": [
+    "account_age",
+    "account_age_days",
+    "Tuổi tài khoản",
+    "tuoi_tai_khoan"
+  ],
+  "isFraud": [
+    "isFraud",
+    "is_fraud",
+    "fraud",
+    "label",
+    "target",
+    "Gian lận",
+    "gian_lan"
+  ]
+}

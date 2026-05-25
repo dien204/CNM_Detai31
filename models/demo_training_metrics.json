@@ -1,0 +1,11 @@
+{
+    "project": "31. Ứng dụng Dự đoán độ tin cậy người dùng",
+    "model": "XGBoost demo model",
+    "demo_only": true,
+    "roc_auc": 0.7501050567306345,
+    "pr_auc": 0.5843642387638817,
+    "scale_pos_weight": 2.065693430656934,
+    "threshold": 0.5,
+    "trust_score_formula": "Trust Score = (1 - fraud_probability) * 100",
+    "note": "Demo assets are generated from synthetic data and are only for Streamlit smoke testing."
+}

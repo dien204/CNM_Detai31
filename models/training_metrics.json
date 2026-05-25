@@ -1,0 +1,9 @@
+{
+    "project": "31. Ứng dụng Dự đoán độ tin cậy người dùng",
+    "model": "XGBoost",
+    "roc_auc": 0.9189599151315916,
+    "pr_auc": 0.5970231838921436,
+    "scale_pos_weight": 27.580278281911674,
+    "threshold": 0.5,
+    "trust_score_formula": "Trust Score = (1 - fraud_probability) * 100"
+}
